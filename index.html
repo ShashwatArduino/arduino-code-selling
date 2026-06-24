@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ArduinoCodeHub 🚀</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #111827;
+  position: sticky;
+  top: 0;
+}
+
+.navbar h2 {
+  color: #22c55e;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to right, #0f172a, #1e3a8a);
+}
+
+.hero h1 {
+  font-size: 42px;
+}
+
+.hero p {
+  color: #cbd5e1;
+  max-width: 600px;
+  margin: auto;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  border: none;
+  background: #22c55e;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* SECTION */
+.section {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* CARDS */
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+.card button {
+  margin-top: 10px;
+  background: #38bdf8;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  color: white;
+}
+
+/* CONTACT */
+.contact {
+  background: #111827;
+  text-align: center;
+  padding: 40px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<div class="navbar">
+  <h2>ArduinoCodeHub 🚀</h2>
+  <div>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div>
+
+<!-- HERO -->
+
+<div class="hero">
+  <h1>ArduinoCodeHub 🚀</h1>
+  <p>
+  Beginner-friendly Arduino projects with ready-to-use code,
+  detailed guides, and troubleshooting support.
+  </p>
+  <button onclick="document.getElementById('products').scrollIntoView()">
+    👉 View Products
+  </button>
+</div>
+
+<!-- PRODUCTS -->
+
+<div class="section" id="products">
+
+  <h2>📦 Our Products</h2>
+
+  <!-- PRODUCT 1 -->
+
+  <div class="card">
+    <h3>DHT11 Temperature & Humidity Monitor</h3>
+    <p>
+    Arduino Uno/Nano<br>
+    DHT11 Sensor<br>
+    LCD Display (I2C)<br><br>
+
+```
+🌡️ Displays temperature<br>
+💧 Displays humidity<br>
+✔ Beginner-friendly<br>
+✔ Ready-to-run code
+</p>
+
+<button onclick="window.location.href='#contact'">
+  👉 Contact to Buy
+</button>
+```
+
+  </div>
+
+  <!-- PRODUCT 2 -->
+
+  <div class="card">
+    <h3>Advanced DHT11 Smart System</h3>
+    <p>
+    Arduino Uno<br>
+    DHT11 Sensor<br>
+    LCD Display (I2C)<br><br>
+
+```
+🔐 Password protection<br>
+🔁 Auto relock<br>
+💻 Typing effect<br>
+✔ Professional project
+</p>
+
+<button onclick="window.location.href='#contact'">
+  👉 Contact to Buy
+</button>
+```
+
+  </div>
+
+</div>
+
+<!-- WHY -->
+
+<div class="section">
+  <h2>Why ArduinoCodeHub?</h2>
+
+  <p>
+  ✔ Beginner-friendly Arduino projects<br>
+  ✔ Step-by-step installation guides<br>
+  ✔ Troubleshooting included<br>
+  ✔ Ready-to-use code files<br>
+  ✔ No complex setup required
+  </p>
+</div>
+
+<!-- CONTACT -->
+
+<div class="contact" id="contact">
+  <h2>📞 Contact Me</h2>
+
+  <p>Email: yourmail@example.com</p>
+  <p>Phone: +91 XXXXXXXXXX</p>
+
+  <p>
+    <a href="https://wa.me/91XXXXXXXXXX">📱 WhatsApp</a><br>
+    <a href="mailto:yourmail@example.com">📧 Email</a>
+  </p>
+</div>
+
+<!-- FOOTER -->
+
+<footer>
+© 2026 ArduinoCodeHub 🚀 <br>
+Made for Arduino learners
+</footer>
+
+</body>
+</html>
